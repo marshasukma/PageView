@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'main.dart';
 
 void main() {
-  runApp(const MyApp11_1());
+  runApp(const MyApp3_1());
 }
 
 class MyApp11_1 extends StatelessWidget {
@@ -11,11 +11,11 @@ class MyApp11_1 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'ABP Minggu 11',
+      title: 'ABP Minggu 3',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: MyHomePage(title: 'ABP Minggu 11'),
+      home: MyHomePage(title: 'ABP Minggu 3'),
       debugShowCheckedModeBanner: false,
     );
   }
@@ -53,7 +53,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   Navigator.push(
                     context,
                     MaterialPageRoute(
-                      builder: (context) => const MyApp11_1(),
+                      builder: (context) => const MyApp3_1(),
                     ),
                   );
                 },
